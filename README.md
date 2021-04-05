@@ -34,6 +34,7 @@ Once this documentation becomes very comprehensive, the main file can be split i
 - [Introduction](#introduction)
   * [Documentation](#documentation)
     + [Hardware](#hardware)
+      - [Sensors wiring](#sensors-wiring)
     + [Software](#software)
 - [License](#license)
 
@@ -52,6 +53,16 @@ Once this documentation becomes very comprehensive, the main file can be split i
 #### Hardware
 
 <!-- Describe your hardware components -->
+
+##### Sensors wiring
+
+<!-- Adapt this sensor architecture, covering all possible sensors accross all teams, to your team. -->
+
+![Sensor Configuration](images/architecture/sensor-configuration.svg)
+
+Made with [drawio-desktop](https://github.com/jgraph/drawio-desktop/) (online version: [diagrams.net](https://www.diagrams.net/)).
+
+<!-- see: https://www.diagrams.net/blog/embed-diagrams-github-markdown -->
 
 #### Software
 
