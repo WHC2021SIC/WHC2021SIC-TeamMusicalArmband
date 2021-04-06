@@ -56,6 +56,13 @@ Once this documentation becomes very comprehensive, the main file can be split i
 
 ##### Sensors wiring
 
+<!-- Feel free to remove or adapt the following explanation once you have understood its potential implications for your project. -->
+
+We use the SparkFun Qwiic system to rapidly and remotely prototype sensors without much soldering. Qwiic uses the I2C communication protocol with addresses assigned per board model.
+Our Qwiic-based architectures may require:
+- 1 Qwiic MUX I2C multiplexer board per group identical sensor/board model (example: needed by 2 flex finger boards in the figures below)
+- 1 Qwiic ADC board per group of 4 sensors that are not implemented as Qwiic boards (example: needed by 4 FSRs sensors in the figures below)
+
 <!-- Adapt this sensor architecture, covering all possible sensors accross all teams, to your team. -->
 
 ![Sensor Configuration](images/architecture/sensor-configuration.svg)
