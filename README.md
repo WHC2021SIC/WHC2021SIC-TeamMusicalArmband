@@ -70,6 +70,7 @@ Once this documentation becomes very comprehensive, the main file can be split i
     + [Hardware](#hardware)
       - [Sensors wiring](#sensors-wiring)
     + [Software](#software)
+- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 <!-- tocstop -->
@@ -108,6 +109,14 @@ Made with [drawio-desktop](https://github.com/jgraph/drawio-desktop/) (online ve
 #### Software
 
 <!-- Describe your software components -->
+
+
+## Acknowledgements
+
+<!-- Describe your software components -->
+
+SIC chairs would like to thank Evan Pezent, Zane A. Zook and Marcia O'Malley from [MAHI Lab](http://mahilab.rice.edu) at Rice University for having distributed to them 2 [Syntacts](https://www.syntacts.org) kits for the [IROS 2020 Intro to Haptics for XR Tutorial](http://iros-haptics-tutorial.org/). 
+SIC co-chair Christian Frisson would like to thank Edu Meneses and Johnty Wang from [IDMIL](http://idmil.org) at McGill University for their recommendations on Raspberry Pi hats for audio and sensors.
 
 ## License
 
