@@ -1,10 +1,10 @@
 # WHC2021SIC Project Template
 
+<!-- Replace Project Template by your team name in title and description -->
+
 Project Template for the IEEE World Haptics Conference 2021 Student Innovation Challenge
 
 https://2021.worldhaptics.org/sic/
-
-<!-- Replace Project Template by your team name in title and description -->
 
 ## Authors
 
@@ -19,6 +19,10 @@ https://2021.worldhaptics.org/sic/
 Name is ... <!-- insert biography -->
  
 Find more information on their <!-- update pronouns--> [website](https://).
+
+<!-- ### Advisor -->
+
+<!-- Uncomment this section title and add a #### Name subsection if your team appointed an advisor. -->
 
 ### Chairs
 
