@@ -12,13 +12,13 @@ https://2021.worldhaptics.org/sic/
 
 <!-- For each team member, duplicate this following subsection and update Name, biography, pronouns and website. Please store pictures under images/portraits/ and use only Name in CamelCase for filenames. -->
 
-#### Name
+#### Anders Bargum (He/Him)
 
-<img alt="Name's picture" src="images/portraits/Name.jpg" width="100px" height="auto"/>
+<img alt="Picture of Anders" src="images/portraits/Anders.png" width="100px" height="auto"/>
 
-Name is ... <!-- insert biography -->
+My name is Anders Bargum. I am an audio nerd and HCI interested student at the 'Sound and Music Computing' masters degree at Aalborg University in Copenhagen, Denmark. 
  
-Find more information on their <!-- update pronouns--> [website](https://).
+Find more information about the topics we are passionate about at r <!-- update pronouns--> [website](https://www.smc.aau.dk/).
 
 <!-- ### Advisor -->
 
