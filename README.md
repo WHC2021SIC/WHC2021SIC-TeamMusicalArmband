@@ -18,7 +18,7 @@ https://2021.worldhaptics.org/sic/
 
 My name is Anders Bargum. I am an audio nerd and HCI interested student at the 'Sound and Music Computing' masters degree at Aalborg University in Copenhagen, Denmark. 
  
-Find more information about the topics we are passionate about at r <!-- update pronouns--> [website](https://www.smc.aau.dk/).
+Find more information about the topics we are passionate about at <!-- update pronouns--> [website](https://www.smc.aau.dk/).
 
 <!-- ### Advisor -->
 
