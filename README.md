@@ -12,6 +12,12 @@ https://2021.worldhaptics.org/sic/
 
 <!-- For each team member, duplicate this following subsection and update Name, biography, pronouns and website. Please store pictures under images/portraits/ and use only Name in CamelCase for filenames. -->
 
+#### Razvan Paisa
+
+<img alt="Picture of Razvan" src="images/portraits/Razvan.png" width="100px" height="auto"/>
+
+I am currently a PhD studen at Aalborg University in Copenhagen, Denmark, working on integrating vibrotactile stimuli into music listening for cochlear implant users. For up-to-date information on what i do, visit our lab's page: [Multisensory Experience lab(]https://melcph.create.aau.dk/)
+
 #### Anders Bargum (He/Him)
 
 <img alt="Picture of Anders" src="images/portraits/Anders.png" width="100px" height="auto"/>
