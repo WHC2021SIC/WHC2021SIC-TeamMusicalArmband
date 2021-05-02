@@ -14,9 +14,9 @@ https://2021.worldhaptics.org/sic/
 
 #### Razvan Paisa
 
-<img alt="Picture of Razvan" src="images/portraits/Razvan.png" width="100px" height="auto"/>
+<img alt="Picture of Razvan" src="images/portraits/Razvan New.png" width="100px" height="auto"/>
 
-I am currently a PhD studen at Aalborg University in Copenhagen, Denmark, working on integrating vibrotactile stimuli into music listening for cochlear implant users. For up-to-date information on what i do, visit our lab's page: [Multisensory Experience lab(]https://melcph.create.aau.dk/)
+I am currently a PhD studen at Aalborg University in Copenhagen, Denmark, working on integrating vibrotactile stimuli into music listening for cochlear implant users. For up-to-date information on what i do, visit our lab's page: [Multisensory Experience Lab](https://www.melcph.aau.dk/)
 
 #### Anders Bargum (He/Him)
 
