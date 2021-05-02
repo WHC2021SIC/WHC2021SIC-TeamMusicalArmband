@@ -16,7 +16,7 @@ https://2021.worldhaptics.org/sic/
 
 <img alt="Picture of Razvan" src="images/portraits/Razvan New.png" width="100px" height="auto"/>
 
-I am currently a PhD studen at Aalborg University in Copenhagen, Denmark, working on integrating vibrotactile stimuli into music listening for cochlear implant users. For up-to-date information on what i do, visit our lab's page: [Multisensory Experience Lab](https://www.melcph.aau.dk/)
+I am currently a PhD studen at Aalborg University in Copenhagen, Denmark, working on integrating vibrotactile stimuli into music listening for cochlear implant users. For up-to-date information on what i do, visit our lab's page: [Multisensory Experience Lab](https://www.melcph.create.aau.dk/)
 
 #### Anders Bargum (He/Him)
 
