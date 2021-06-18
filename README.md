@@ -101,9 +101,13 @@ The hardware is composed from an array of 6 actuators placed on the top side of 
 ##### Wiring
 The wiring is very simple since most of the connectors provided in the kit are already made - thank you for making our job easier. The only thing that needs to be wired manually is the actuators themselves. We used channels 2-8 of the amplifier, to connect one actuator/channel. To do this, we are using a 12 wire multi-wire ribbon with a pitch of 2.54(not part of the kit, but the one provided should be just as good). 
 First step is to allign and mark down ribbon according to the distance between the actuator sockets, as the figures below show.
-<img alt="Ribbon Alignment" src="images/Building Process/Ribbon alligned.jpg" width="512x" height="auto"/>  <img alt="Ribbon markings" src="images/Building Process/Ribbon Marked.jpg" width="512x" height="auto"/>
+
+<img alt="Ribbon Alignment" src="images/Building Process/Ribbon alligned.jpg" width="425x" height="auto"/> <img alt="Ribbon markings" src="images/Building Process/Ribbon Marked.jpg" width="425x" height="auto"/>
+
 Step 2 is to cut pairs of wires according to the markings, strip the ends, and apply a little solder tin on the each exposed wire. It is not necesary to strip the ends more than 2-3mm.
-<img alt="Ribbon cutting" src="images/Building Process/Ribbon Cut.jpg" width="512x" height="auto"/> <img alt="Splits soldered" src="images/Building Process/Splits soldered.jpg" width="512x" height="auto"/>
+
+<img src= "images/Building Process/Ribbon Cut.jpg" width="500x" height="auto"/> <img src="images/Building Process/Splits soldered.jpg" width="500x" height="auto"/>
+
 Step 3 is to make solder one actuator for each pair of wires, and test the fitting as shown below.
 <img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
 Last step is to created the IDC connector.
