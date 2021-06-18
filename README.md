@@ -91,14 +91,23 @@ In order to enhance their music listening experience we propose a musical haptic
 
 Our proposed device is composed from an array of actuators placed on the top side of the forearm representing musical notes from a diatonic scale. The transducers will be following a note-to-position mapping scheme, with the lowest note closest to the wrist, and it's higher octave counterpart closest to the elbow. The device is expected to be used in combination with headphones/speakers by users with residual hearing or cochlear implants, and will use MIDI files to generate the haptic stimuli. The same protocol will be used to play a custom software synthesizer.
 ### Documentation
-TBA
+These are the tools necessary for the hardware: scissors, pliers, flat head screwdriver(provided in the kit), wire cutters, wirre stripper, permanent marker, office tape(the stickier the better), soldering tin and an 2x8 Pin 16 Pin IDC Female Header(optional). 
+<img alt="Tools necessary" src="images/Building Process/Tools.jpg" width="1024x" height="auto"/>
 #### Hardware
 <!-- Describe your hardware components -->
 The hardware is composed from an array of 6 actuators placed on the top side of the forearm representing musical notes from a pentationic scale + the octave of the lowest one. Each transducer can reproduce only one note and the array is following a note-to-position mapping scheme, with the lowest note closest to the elbow, and the higher one closest to the wrist. The project runs on a Raspberry Pi  with an Audio Injector Octo sound card cape, that is connected to a Mahi Syntacts Amp 3.1 for the necessary amplification. The amplifier board is getting powered by the USB 3.0 port on the RPi. Below you can see a picture of the whole setup.
 <img alt="Final Setup" src="images/Building Process/Final.jpg" width="1024x" height="auto"/>
 
 ##### Wiring
-TBA - See images/Building Process for the documentation(fornow.)
+The wiring is very simple since most of the connectors provided in the kit are already made - thank you for making our job easier. The only thing that needs to be wired manually is the actuators themselves. We used channels 2-8 of the amplifier, to connect one actuator/channel. To do this, we are using a 12 wire multi-wire ribbon with a pitch of 2.54(not part of the kit, but the one provided should be just as good). 
+First step is to allign and mark down ribbon according to the distance between the actuator sockets, as the figures below show.
+<img alt="Ribbon Alignment" src="images/Building Process/Ribbon alligned.jpg" width="512x" height="auto"/>  <img alt="Ribbon markings" src="images/Building Process/Ribbon Marked.jpg" width="512x" height="auto"/>
+Step 2 is to cut pairs of wires according to the markings, strip the ends, and apply a little solder tin on the each exposed wire. It is not necesary to strip the ends more than 2-3mm.
+<img alt="Ribbon cutting" src="images/Building Process/Ribbon Cut.jpg" width="512x" height="auto"/> <img alt="Splits soldered" src="images/Building Process/Splits soldered.jpg" width="512x" height="auto"/>
+Step 3 is to make solder one actuator for each pair of wires, and test the fitting as shown below.
+<img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
+Last step is to created the IDC connector.
+TBA
 #### Software
 The software is runs in Pure Data v5.0.3 , on the Patchbox OS RPi distro, and it's split between an haptic synthesizer, and an audio synthesizer. More TBA
 <!-- Describe your software components -->
