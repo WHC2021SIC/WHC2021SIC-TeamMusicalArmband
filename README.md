@@ -95,7 +95,7 @@ TBA
 #### Hardware
 <!-- Describe your hardware components -->
 The hardware is composed from an array of 6 actuators placed on the top side of the forearm representing musical notes from a pentationic scale + the octave of the lowest one. Each transducer can reproduce only one note and the array is following a note-to-position mapping scheme, with the lowest note closest to the elbow, and the higher one closest to the wrist. The project runs on a Raspberry Pi  with an Audio Injector Octo sound card cape, that is connected to a Mahi Syntacts Amp 3.1 for the necessary amplification. The amplifier board is getting powered by the USB 3.0 port on the RPi. Below you can see a picture of the whole setup.
-<img alt="Final Setup" src="images/Building Process/CFinal.jpg" width="1024x" height="auto"/>
+<img alt="Final Setup" src="images/Building Process/Final.jpg" width="1024x" height="auto"/>
 
 ##### Wiring
 TBA - See images/Building Process for the documentation(fornow.)
