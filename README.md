@@ -1,8 +1,7 @@
-# WHC2021SIC Project Template
+# Musical Armband 
+A haptic synthesizer inspired by the roland TB303, designed for cochlear implant users
 
-<!-- Replace Project Template by your team name in title and description -->
 
-Project Template for the IEEE World Haptics Conference 2021 Student Innovation Challenge
 
 https://2021.worldhaptics.org/sic/
 
@@ -74,7 +73,7 @@ Once this documentation becomes very comprehensive, the main file can be split i
 - [Introduction](#introduction)
   * [Documentation](#documentation)
     + [Hardware](#hardware)
-      - [Sensors wiring](#sensors-wiring)
+      - [Wiring](#Wiring)
     + [Software](#software)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
@@ -82,38 +81,26 @@ Once this documentation becomes very comprehensive, the main file can be split i
 <!-- tocstop -->
 
 ## Abstract
-
 <!-- Summarize your project: for now copy the short pitch from your proposal -->
-
+Musical Armbrand is a multi-actuator vibrotactile wearable device, designed to augment the music listening experience for persons using  cochlear implants. We constructed the device on the principle of \textit{multisensory integration} that describes how humans form coherent, valid, and robust perception of reality, by processing sensory stimuli from various modalities. Multisensory integration suggests that enhancement  can occur only for stimuli that are temporally coincident and propose that enhancement is strongest for those stimuli that individually are least effective - in our case, the auditory one.
 ## Introduction
-
 <!-- Explain your project: for now copy the 300-word description from your proposal -->
+Studies focusing on the psychological, emotional and social benefits associated with music listening propose that it provides a platform for multi faceted  self-related thoughts focusing on emotion and sentiments, escapism, coping, solace and meaning of life. Unfortunately, not everybody is allowed access to these benefits for different reasons, but one category of people in particular are affected: the hearing impaired. According to the World Health Organization (WHO), almost half a billion people suffer from disabling hearing loss, with a predicted 900 million by the year 2050.
 
+In order to enhance their music listening experience we propose a musical haptic wearable device that is based on the principle of multisensory integration - a documented phenomena that occurs at very early stages of cognition, resulting in supra-additive integration of touch and hearing. This translates to a robust synergy between the two sensory apparatuses, that can be exploited to synthesize experiences impossible to achieve by unisensory means - especially for the hearing impaired community, where the hearing mechanism is (partially) faulty. 
+
+Our proposed device is composed from an array of actuators placed on the top side of the forearm representing musical notes from a diatonic scale. The transducers will be following a note-to-position mapping scheme, with the lowest note closest to the wrist, and it's higher octave counterpart closest to the elbow. The device is expected to be used in combination with headphones/speakers by users with residual hearing or cochlear implants, and will use MIDI files to generate the haptic stimuli. The same protocol will be used to play a custom software synthesizer.
 ### Documentation
-
+TBA
 #### Hardware
-
 <!-- Describe your hardware components -->
+The hardware is composed from an array of 6 actuators placed on the top side of the forearm representing musical notes from a pentationic scale + the octave of the lowest one. Each transducer can reproduce only one note and the array is following a note-to-position mapping scheme, with the lowest note closest to the elbow, and the higher one closest to the wrist. The project runs on a Raspberry Pi  with an Audio Injector Octo sound card cape, that is connected to a Mahi Syntacts Amp 3.1 for the necessary amplification. The amplifier board is getting powered by the USB 3.0 port on the RPi. Below you can see a picture of the whole setup.
+<img alt="Final Setup" src="images/Building Process/CFinal.jpg" width="1024x" height="auto"/>
 
-##### Sensors wiring
-
-<!-- Feel free to remove or adapt the following explanation once you have understood its potential implications for your project. -->
-
-We use the SparkFun Qwiic system to rapidly and remotely prototype sensors without much soldering. Qwiic uses the I2C communication protocol with addresses assigned per board model.
-Our Qwiic-based architectures may require:
-- 1 Qwiic MUX I2C multiplexer board per group identical sensor/board model (example: needed by 2 flex finger boards in the figures below)
-- 1 Qwiic ADC board per group of 4 sensors that are not implemented as Qwiic boards (example: needed by 4 FSRs sensors in the figures below)
-
-<!-- Adapt this sensor architecture, covering all possible sensors accross all teams, to your team. -->
-
-![Sensor Configuration](images/architecture/sensor-configuration.svg)
-
-Made with [drawio-desktop](https://github.com/jgraph/drawio-desktop/) (online version: [diagrams.net](https://www.diagrams.net/)).
-
-<!-- see: https://www.diagrams.net/blog/embed-diagrams-github-markdown -->
-
+##### Wiring
+TBA - See images/Building Process for the documentation(fornow.)
 #### Software
-
+The software is runs in Pure Data v5.0.3 , on the Patchbox OS RPi distro, and it's split between an haptic synthesizer, and an audio synthesizer. More TBA
 <!-- Describe your software components -->
 
 
