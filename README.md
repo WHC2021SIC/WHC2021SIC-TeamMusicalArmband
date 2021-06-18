@@ -1,7 +1,7 @@
 # Musical Armband 
 A haptic synthesizer inspired by the roland TB303, designed for cochlear implant users
 
-
+Current Status can be seen @ **https://youtu.be/LC58CtU7uzo**
 
 https://2021.worldhaptics.org/sic/
 
