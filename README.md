@@ -171,14 +171,14 @@ The wiring is very simple since most of the connectors provided in the kit are a
 
 <img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
 
-*Step 4:* Create the IDC connector. For this stary by alligning the loose end of the ribbon cable as the picuture below shows. Please note the orientation of the header and the allignment of the ribbon: the ribbon is alligned all the way to the right, leaving the leftmots 4 connectors unconnected, relative to the pictured orientation. 
+*Step 4:* Create the IDC connector. For this start by aligning the loose end of the ribbon cable as the picture below shows. Please note the orientation of the header and the alignment of the ribbon: the ribbon is aligned all the way to the right, leaving the leftmost 4 connectors unconnected, relative to the pictured orientation. 
 <img alt="Actuators Installed" src="images/Building Process/Connector Setup.jpg" width="1024x" height="auto"/>
-For those of you extra technical, the ribbon should connect to pin 5-16 of the IDC connector. If you have been consistent with the orientation when soldering the actuators, yo should have consistent phase across all actuators(not that it matters that much for this application).
+For those of you extra technical, the ribbon should connect to pin 5-16 of the IDC connector. If you have been consistent with the orientation when soldering the actuators, you should have consistent phase across all actuators (not that it matters that much for this application).
 
 *Step 5:* Place the ribbon cable on the IDC connector, ensuring that the 4 leftmost pins are not connected, as seen below.
 <img alt="Actuators Installed" src="images/Building Process/Connector Alignment.jpg" width="1024x" height="auto"/>
 
-*Step 6:* Use a crimp tool, a pair of pliers or a  vice to squeeze the top of the connector onto the wires. It should look something like this:
+*Step 6:* Use a crimp tool, a pair of pliers or a vice to squeeze the top of the connector onto the wires. It should look something like this:
 <img alt="Actuators Installed" src="images/Building Process/Connector done.jpg" width="1024x" height="auto"/>
 
 P.S. if the process of making a connector seems poorly explained here, check this [Youtube](https://www.youtube.com/watch?v=EFyFhcmeS2I) tutorial.
@@ -186,7 +186,7 @@ P.S. if the process of making a connector seems poorly explained here, check thi
 #### Cardboard Armband
 *Step 1:* Print the armband template [file](https://github.com/WHC2021SIC/WHC2021SIC-TeamMusicalArmband/blob/master/Armband%20Template.pdf) as an A4 paper size  without scaling it.
 
-*Step 2:* Tape the printed file to the cardboard, making sure that the cardboard corrugations are perpedicular to each of the armband's *arms* (see the figure below). You might need to apply extra tape during the cutting process, to make sure the template stays in the correct position. For more info, read the pro tip at the bottom.
+*Step 2:* Tape the printed file to the cardboard, making sure that the cardboard corrugations are perpendicular to each of the armband's *arms* (see the figure below). You might need to apply extra tape during the cutting process, to make sure the template stays in the correct position. For more info, read the pro tip at the bottom.
 
 *Step 3:* Cut the outline of the armband for your desired body weight. The lenghts are based on [Henry Dreyfuss's human measurments](https://humanscalemanual.com/), and provide a rough guideline for sizing. Cut it with a scissor, and/or a hobby kife; start with the long straight lines, and work your way into the details at the fittings at the end. 
 
@@ -201,7 +201,7 @@ P.S. if the process of making a connector seems poorly explained here, check thi
 *Step 8:* Place the actuators in the sockets, and push gently so they all protrude a tiny bit on the inside of the armband. The figure below shows the actuators correctly in place, and the arms after they have been sligly bent inwards.
 <img alt="Actuators Installed" src="images/Building Process/Protrusion.jpg" width="1024x" height="auto"/>
 
-*Step 9:* Tape the top side of the actuators, pushing gently to ensure as much tape contact with the cardboard, ribbon and actuators. Cut the exess tape(depending on the width you used)
+*Step 9:* Tape the top side of the actuators, pushing gently to ensure as much tape contact with the cardboard, ribbon and actuators. Cut the excess tape (depending on the width you used).
 
 <img alt="Actuators Installed" src="images/Building Process/Tape.jpg" width="1024x" height="auto"/>
 
@@ -242,12 +242,12 @@ The GUI allows the user to manipulate the following parameters:
 
 <!-- Describe your software components -->
 
-## Runing Instructions
-If you have completed the build succesfuly, and the software is runing as intended, congratulations. Now it's time for the fun part. Place the 303 armband on one of your hands, with the actuators face down. We found the easies way to set it up is to lay the armband on the leg, and lay one arm on it, palm facing up. We found the haptic sensations to be better if the whole armband is rather closer to the elbow than the wrist, so make sure the actuator closest to the wrist is at least 2-3cm from it. Once the arm is in place, start by fastening one rubber band, somewhere in the middle of the arm. Lift your hand and make sure that the actuators ar all aligned with the arm; readjust if necessary and fasten all the rubber bands. If the fitting has been done correctly, they should ensure that all actuators are in contact with the arm.
+## Running Instructions
+If you have completed the build succesfully, and the software is running as intended, congratulations. Now it's time for the fun part. Place the 303 armband on one of your underarms, with the actuators facing downwards. We found the easiest way to set it up, is to lay the armband on the leg, and lay one arm on it, palm facing up. We found the haptic sensations to be better if the whole armband is closer to the elbow than the wrist, so make sure the actuator closest to the wrist is at least 2-3cm from it. Once the arm is in place, start by fastening one rubber band, somewhere in the middle of the arm. Lift your hand and make sure that the actuators are all aligned with the arm; readjust if necessary and fasten all the rubber bands. If the fitting has been done correctly, they should ensure that all actuators are in contact with the arm.
 
-Turn on the sequencer by pressing the Play/Stop square button and enable some gates. You should hear some sounds, and feel the corresponding tactile stimuli. Change the note sliders(collored yellow) to your desired notes, and experiment with different tempo, decay, glide, cutoff frequency and resonance values. We experienced that after a short accomodation period(a few minutes), the haptic stimuli becomes rather intutive to understand and accept coherintly with the audio.
+Turn on the sequencer by pressing the Play/Stop square button and enable some gates. You should hear some sounds, and feel the corresponding tactile stimuli. Change the note sliders (coloured yellow) to your desired notes, and experiment with different tempo, decay, glide, cutoff frequency and resonance values. We experienced that after a short accomodation period (a few minutes), the haptic stimuli becomes rather intutive to understand and accept coherently with the audio.
 
-Pro tip: **303 basslines are nothing without *that* resonance, so don't hesitate to push the filter Q up.**
+Pro tip: **303 basslines are nothing without *that* resonance, so don't hesitate to push the filter Q up in order to reach squeaky sounds.**
 
 ## Acknowledgements
 
