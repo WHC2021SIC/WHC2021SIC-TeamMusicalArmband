@@ -125,10 +125,15 @@ The hardware is composed of 2 parts: the hardware platform, and the Armband. Bel
 
 #### Hardware platform
 *Step 1:* Setting up the hardware platform starts by connecting the soundcard cape to the PI. Luckily, there is only one way to fit it in, so it should not cause too many problems. Refer to the picture above for an example. 
+
 *Step 2:* Connect the 8xRCA output breakout board to the soundcard's **"OUT"** connector, using the provided 24pin ribbon cable.
+
 *Step 3:* Cut any USB cable at about 25cm **above** the male connector. If in doubt, connect the usb cable to the RPI, and cut the loose end :) Reffer to the picture above for an example. The USB is the white cable. 
+
 *Step 4:* Strip the cut cable end about 2cm; it will expose four wires. We are interested in only 2: the red, and the black one. Strip those two about 3mm and apply a little solder on the exposed ends.
+
 *Step 5:* Connect the newly made USB power cable to the Syntacts amplifier's screw terminals. Red wire goes into the "+" symbol, and the black  one goes into the "-". Tighten the screws with a small flat screwdriver.
+
 *Step 6:* Connect the 3 TRS-to-RCA cables between the soundcard and amplifier as following:
 
     - Channel 1 (White) and 2 (Red) of the soundcard into J4(channel 6/7) of the amplifier
@@ -136,19 +141,15 @@ The hardware is composed of 2 parts: the hardware platform, and the Armband. Bel
     - Channel 5 (White) and 6 (Red) of the soundcard into J2(channel 2/3) of the amplifier
 
 It is very important to preserve the correct channel order so the actuators will work as intended. If you have standard (commercial) TRS cables, 'tip' should be Left channel (white) and 'ring' should be Right channel (red), so it's only important to match the colors on the soundcard.
-*Step 7:* connect at least one of the remaining channels of the soundcard to a speaker/headphones.
-*Step 8:* Install Pathbox OS by following instructions available [here](https://blokas.io/patchbox-os/).
-*Step 9:* Install the soundcard drivers by following instructions available [here](https://github.com/Audio-Injector/Octo).
-#### Cardboard Armband
-*Step 1:* Print the armband template [file](https://github.com/WHC2021SIC/WHC2021SIC-TeamMusicalArmband/blob/master/Armband%20Template.pdf) as an A4 paper size  without scaling it.
-*Step 2:* Tape the printed file to the cardboard, making sure that the cardboard corrugations are perpedicular to each of the armband's *arms* (see the figure below). You might need to apply extra tape during the cutting process, to make sure the template stays in the correct position. For more info, read the pro tip at the bottom.
-*Step 3:* Cut the outline of the armband for your desired body weight. The lenghts are based on [Henry Dreyfuss's human measurments](https://humanscalemanual.com/), and provide a rough guideline for sizing. Cut it with a scissor, and/or a hobby kife; start with the long straight lines, and work your way into the details at the fittings at the end. 
-*Step 4:* Cut the rubber band fitting holes (the one at the lower end, as seen in the printed template), in the newly cut armband.
-*Step 5:* Carefully cut each of the sockets for the actuators. Take your time and make sure that actuators have a snugg fit. 
-*Step 6:* Slightly bend the band inwards, by squeezing the corrugated cardboard. Do not bend too close to the actuator sockets. This should ensure that the armband flexes evenly over the whole corrugated cardboard area, distributing pressure equally.
-*Step 7:* Fasten the rubber bands by creating a loop knot, and test fitting. If the rubber bands are too long/the fitting is too loose, you can make a knot on the loose end of the rubber band to shorten it. Test fit again, for all 6 bands; they should be similarly tight and in clear contact with the skin.
 
-Pro tip: **Measure, measure, cut.**
+<img alt="Actuators Installed" src="images/Building Process/Channels.jpg" width="1024x" height="auto"/>
+
+*Step 7:* connect at least one of the remaining channels of the soundcard to a speaker/headphones.
+
+*Step 8:* Install Pathbox OS by following instructions available [here](https://blokas.io/patchbox-os/).
+
+*Step 9:* Install the soundcard drivers by following instructions available [here](https://github.com/Audio-Injector/Octo).
+
 #### Wiring
 The wiring is very simple since most of the connectors provided in the kit are already made - thank you for making our job easier. The only thing that needs to be wired manually is the actuators themselves. We used channels 2-8 of the amplifier, to connect one actuator/channel. To do this, we are using a 12 wire multi-wire ribbon with a pitch of 2.54 (not part of the kit, but the one provided should be just as good). 
 
@@ -167,12 +168,40 @@ The wiring is very simple since most of the connectors provided in the kit are a
 *Step 4:* Create the IDC connector. For this stary by alligning the loose end of the ribbon cable as the picuture below shows. Please note the orientation of the header and the allignment of the ribbon: the ribbon is alligned all the way to the right, leaving the leftmots 4 connectors unconnected, relative to the pictured orientation. 
 <img alt="Actuators Installed" src="images/Building Process/Connector Setup.jpg" width="1024x" height="auto"/>
 For those of you extra technical, the ribbon should connect to pin 5-16 of the IDC connector. If you have been consistent with the orientation when soldering the actuators, yo should have consistent phase across all actuators(not that it matters that much for this application).
+
 *Step 5:* Place the ribbon cable on the IDC connector, ensuring that the 4 leftmost pins are not connected, as seen below.
 <img alt="Actuators Installed" src="images/Building Process/Connector Alignment.jpg" width="1024x" height="auto"/>
+
 *Step 6:* Use a crimp tool, a pair of pliers or a  vice to squeeze the top of the connector onto the wires. It should look something like this:
 <img alt="Actuators Installed" src="images/Building Process/Connector done.jpg" width="1024x" height="auto"/>
+
 P.S. if the process of making a connector seems poorly explained here, check this [Youtube](https://www.youtube.com/watch?v=EFyFhcmeS2I) tutorial.
 
+#### Cardboard Armband
+*Step 1:* Print the armband template [file](https://github.com/WHC2021SIC/WHC2021SIC-TeamMusicalArmband/blob/master/Armband%20Template.pdf) as an A4 paper size  without scaling it.
+
+*Step 2:* Tape the printed file to the cardboard, making sure that the cardboard corrugations are perpedicular to each of the armband's *arms* (see the figure below). You might need to apply extra tape during the cutting process, to make sure the template stays in the correct position. For more info, read the pro tip at the bottom.
+
+*Step 3:* Cut the outline of the armband for your desired body weight. The lenghts are based on [Henry Dreyfuss's human measurments](https://humanscalemanual.com/), and provide a rough guideline for sizing. Cut it with a scissor, and/or a hobby kife; start with the long straight lines, and work your way into the details at the fittings at the end. 
+
+*Step 4:* Cut the rubber band fitting holes (the one at the lower end, as seen in the printed template), in the newly cut armband.
+
+*Step 5:* Carefully cut each of the sockets for the actuators. Take your time and make sure that actuators have a snugg fit. 
+
+*Step 6:* Slightly bend the band inwards, by squeezing the corrugated cardboard. Do not bend too close to the actuator sockets. This should ensure that the armband flexes evenly over the whole corrugated cardboard area, distributing pressure equally.
+
+*Step 7:* Fasten the rubber bands by creating a loop knot, and test fitting. If the rubber bands are too long/the fitting is too loose, you can make a knot on the loose end of the rubber band to shorten it. Test fit again, for all 6 bands; they should be similarly tight and in clear contact with the skin.
+
+*Step 8:* Place the actuators in the sockets, and push gently so they all protrude a tiny bit on the inside of the armband. The figure below shows the actuators correctly in place, and the arms after they have been sligly bent inwards.
+<img alt="Actuators Installed" src="images/Building Process/Protrusion.jpg" width="1024x" height="auto"/>
+
+*Step 9:* Tape the top side of the actuators, pushing gently to ensure as much tape contact with the cardboard, ribbon and actuators. Cut the exess tape(depending on the width you used)
+
+<img alt="Actuators Installed" src="images/Building Process/Tape.jpg" width="1024x" height="auto"/>
+
+*Step 10:* Congratulations, you've been working for a while now. Take a break, strech your legs, rest your eyes and maybe drink a glass of water :) 
+
+Pro tip: **Measure, measure, cut.**
 
 ### Software
 #### Running instructions
@@ -184,7 +213,6 @@ The synthesis part of the haptic musical armband emulates the Roland TB303 synth
 **For a quick and easy start**, select one of the presets by clicking on one of the preset buttons (you will see parameters changing). Hereafter start the sequence by pressing the play/stop toggle. You should now see the step bar running, hear a melody and feel its vibrations.
 
 <img alt="Actuators Installed" src="images/GUI.jpg" width="1024x" height="auto"/>
-
 
 The GUI allows the user to manipulate the following parameters:
 
@@ -207,6 +235,9 @@ The GUI allows the user to manipulate the following parameters:
 **(REMEMBER!)** The haptic vibrations are computed independently of the pitch, as this is mapped to position and is thus not affected by the octave or the oscillator type. Rather, the amplitude of the vibrations are depending on overall filter energy introduced by different cutoff and resonance settings, matching the perceptual loudness of a 303 acid bass-line. 
 
 <!-- Describe your software components -->
+
+## Runing Instructions
+If you have completed the build succesfuly, and the software is runing as intended, congratulations. Now it's time for the fun part. Place the 303 armband on one of your hands, with the actuators face down. We found the easies way to set it up is to lay the armband on the leg, and lay one arm on it, palm facing up. We found the haptic sensations to be better if the whole armband is rather closer to the elbow than the wrist, so make sure the actuator closest to the wrist is at least 2-3cm from it. Once the arm is in place, start by fastening one rubber band, somewhere in the middle of the arm. Lift your hand and make sure that the actuators ar all aligned with the arm; readjust if necessary and fasten all the rubber bands. If the fitting has been done correctly, they should ensure that all actuators are in contact with the arm.
 
 
 ## Acknowledgements
