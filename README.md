@@ -140,7 +140,7 @@ It is very important to preserve the correct channel order so the actuators will
 *Step 8:* Install Pathbox OS by following instructions available [here](https://blokas.io/patchbox-os/).
 *Step 9:* Install the soundcard drivers by following instructions available [here](https://github.com/Audio-Injector/Octo).
 #### Cardboard Armband
-*Step 1:* Print the armband template file(called "Armband Template.pdf") as an A4 paper size  without scaling it.
+*Step 1:* Print the armband template [file](https://github.com/WHC2021SIC/WHC2021SIC-TeamMusicalArmband/blob/master/Armband%20Template.pdf) as an A4 paper size  without scaling it.
 *Step 2:* Tape the printed file to the cardboard, making sure that the cardboard corrugations are perpedicular to each of the armband's *arms* (see the figure below). You might need to apply extra tape during the cutting process, to make sure the template stays in the correct position. For more info, read the pro tip at the bottom.
 *Step 3:* Cut the outline of the armband for your desired body weight. The lenghts are based on [Henry Dreyfuss's human measurments](https://humanscalemanual.com/), and provide a rough guideline for sizing. Cut it with a scissor, and/or a hobby kife; start with the long straight lines, and work your way into the details at the fittings at the end. 
 *Step 4:* Cut the rubber band fitting holes (the one at the lower end, as seen in the printed template), in the newly cut armband.
@@ -183,7 +183,7 @@ The synthesis part of the haptic musical armband emulates the Roland TB303 synth
 
 **For a quick and easy start**, select one of the presets by clicking on one of the preset buttons (you will see parameters changing). Hereafter start the sequence by pressing the play/stop toggle. You should now see the step bar running, hear a melody and feel its vibrations.
 
-![](https://i.imgur.com/wCu0WfP.jpg)
+<img alt="Actuators Installed" src="images/GUI.jpg" width="1024x" height="auto"/>
 
 
 The GUI allows the user to manipulate the following parameters:
@@ -201,7 +201,7 @@ The GUI allows the user to manipulate the following parameters:
 - **Filter Frequency**: Manipulate the cutoff of the 4-pole ladder low-pass filter. This parameters is paired with the filter resonance, constituting a perceptual many-to-one mapping, which modifies the amplitude of the haptic vibrations. 
 - **Filter Q**: Adjust the Q value/amplify the resonance at the cutoff frequency of the low-pass filter. 
 
-![](https://i.imgur.com/GIQH0Zj.jpg)
+<img alt="Actuators Installed" src="images/Scale.jpg" width="1024x" height="auto"/>
 
 
 **(REMEMBER!)** The haptic vibrations are computed independently of the pitch, as this is mapped to position and is thus not affected by the octave or the oscillator type. Rather, the amplitude of the vibrations are depending on overall filter energy introduced by different cutoff and resonance settings, matching the perceptual loudness of a 303 acid bass-line. 
