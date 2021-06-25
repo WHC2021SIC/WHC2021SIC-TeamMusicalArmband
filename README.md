@@ -106,7 +106,7 @@ First step is to allign and mark down ribbon according to the distance between t
 
 Step 2 is to cut pairs of wires according to the markings, strip the ends, and apply a little solder tin on the each exposed wire. It is not necesary to strip the ends more than 2-3mm.
 
-<img src= "images/Building Process/Ribbon Cut.jpg" width="500x" height="auto"/> <img src="images/Building Process/Splits Soldered.jpg" width="500x" height="400x"/>
+<img src= "images/Building Process/Ribbon Cut.jpg" width="500x" height="auto"/> <img src="images/Building Process/Splits Soldered.jpg" width="400x" height="320x"/>
 
 Step 3 is to make solder one actuator for each pair of wires, and test the fitting as shown below.
 <img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
