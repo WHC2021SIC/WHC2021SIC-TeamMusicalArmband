@@ -82,7 +82,7 @@ Generated with `npm run toc`, see [INSTALL.md](INSTALL.md).
 
 ## Abstract
 <!-- Summarize your project: for now copy the short pitch from your proposal -->
-Musical Armband is a multi-actuator vibrotactile wearable device, designed to augment the music listening experience for persons using  cochlear implants. We constructed the device on the principle of \textit{multisensory integration} that describes how humans form coherent, valid, and robust perception of reality, by processing sensory stimuli from various modalities. Multisensory integration suggests that enhancement  can occur only for stimuli that are temporally coincident and propose that enhancement is strongest for those stimuli that individually are least effective - in our case, the auditory one.
+303 Armband is a multi-actuator vibrotactile wearable device, designed to augment the music listening experience for persons using  cochlear implants. We constructed the device on the principle of *multisensory integration* that describes how humans form coherent, valid, and robust perception of reality, by processing sensory stimuli from various modalities. Multisensory integration suggests that enhancement  can occur only for stimuli that are temporally coincident and propose that enhancement is strongest for those stimuli that individually are least effective - in our case, the auditory one.
 
 ## Introduction
 <!-- Explain your project: for now copy the 300-word description from your proposal -->
@@ -97,10 +97,10 @@ Our proposed device is composed from an array of 6 actuators placed on the top s
 The actuators are following a *note-to-position* mapping scheme, with the lowest note closest to the elbow, and it's higher octave counterpart closest to the wrist. The Armband should be used in combination with speakers by users, as the software accompanying it is both a haptic and a sound synthesizer. The mapping between audio and haptic stimuli has been done with perceptual relevance in focus.
 
 The hardware is composed from an array of 6 REM actuators placed on the top side of the forearm representing musical notes from the C minor pentatonic scale. Each transducer can reproduce only one note and the array, and can be used when the glide effect occurs.  The project runs on a Raspberry Pi  4 with an Audio Injector Octo sound card cape, that is connected to a Syntacts Amp 3.1 for the necessary amplification. The amplifier board is getting powered by the USB 3.0 port on the RPi.  The software used for the GUI, haptic and sound synthesizer is called Pure Data v0.5  that runs on  the *Patchbox OS* Raspberry Pi Linux distribution.
-MIDI encoding is used to generate the haptic stimuli. The same protocol will be used to play a custom software synthesizer.
+MIDI encoding is used to play a custom software synthesizer as well as the haptic stimuli.
 
 ## Fabrication instructions
-These are the tools necessary for the hardware: scissors and eventually a hobby knife (not shown in the picture), pliers, flat head screwdriver (provided in the kit), wire cutters, wirre stripper, permanent marker, office tape (the stickier the better), 6 rubber bands - shorter ones are preffered (not shown), soldering iron (not shown) and an 2x8 Pin IDC Female Header(optional).
+These are the tools necessary for the hardware: scissors and eventually a hobby knife (not shown in the picture), pliers, flat head screwdriver (provided in the kit), wire cutters, wire stripper, permanent marker, office tape (the stickier the better), 6 rubber bands - shorter ones are preffered (not shown), soldering iron (not shown) and an 2x8 Pin IDC Female Header(optional).
 <img alt="Tools necessary" src="images/Building Process/Tools.jpg" width="1024x" height="auto"/>
 
 ### Hardware
@@ -140,19 +140,19 @@ It is very important to preserve the correct channel order so the actuators will
 *Step 8:* Install Pathbox OS by following instructions available [here](https://blokas.io/patchbox-os/).
 *Step 9:* Install the soundcard drivers by following instructions available [here](https://github.com/Audio-Injector/Octo).
 #### Cardboard Armband
-*Step 1:* Print the armband template file (called "Armband Template.pdf")
-*Step 2:* Tape the printed file to the cardboard, making sure that the cardboard corrugations are perpedicular to each of the armband's *arms* (see the figure below).
-*Step 3:* Cut the outline of the armband for your desired weight. The weights are based on [Henry Dreyfuss's human measurments](https://humanscalemanual.com/), and provide a rough guideline for sizing. Cut it with a scissor, and/or a hobby kife; start with the long straight lines, and work your way into the details at the fitting end. 
-*Step 4:* Cut the rubber band fitting holes, in the newly cut armband.
+*Step 1:* Print the armband template file(called "Armband Template.pdf") as an A4 paper size  without scaling it.
+*Step 2:* Tape the printed file to the cardboard, making sure that the cardboard corrugations are perpedicular to each of the armband's *arms* (see the figure below). You might need to apply extra tape during the cutting process, to make sure the template stays in the correct position. For more info, read the pro tip at the bottom.
+*Step 3:* Cut the outline of the armband for your desired body weight. The lenghts are based on [Henry Dreyfuss's human measurments](https://humanscalemanual.com/), and provide a rough guideline for sizing. Cut it with a scissor, and/or a hobby kife; start with the long straight lines, and work your way into the details at the fittings at the end. 
+*Step 4:* Cut the rubber band fitting holes (the one at the lower end, as seen in the printed template), in the newly cut armband.
 *Step 5:* Carefully cut each of the sockets for the actuators. Take your time and make sure that actuators have a snugg fit. 
-*Step 6:* Slightly bend the band inwards, by squeezing the corrugated cardboard. Do not bend too close to the actuator sockets.
+*Step 6:* Slightly bend the band inwards, by squeezing the corrugated cardboard. Do not bend too close to the actuator sockets. This should ensure that the armband flexes evenly over the whole corrugated cardboard area, distributing pressure equally.
 *Step 7:* Fasten the rubber bands by creating a loop knot, and test fitting. If the rubber bands are too long/the fitting is too loose, you can make a knot on the loose end of the rubber band to shorten it. Test fit again, for all 6 bands; they should be similarly tight and in clear contact with the skin.
 
 Pro tip: **Measure, measure, cut.**
 #### Wiring
 The wiring is very simple since most of the connectors provided in the kit are already made - thank you for making our job easier. The only thing that needs to be wired manually is the actuators themselves. We used channels 2-8 of the amplifier, to connect one actuator/channel. To do this, we are using a 12 wire multi-wire ribbon with a pitch of 2.54 (not part of the kit, but the one provided should be just as good). 
 
-*Step 1:* First align and mark down ribbon according to the distance between the actuator sockets, as the figures below show.
+*Step 1:* First align and mark down the ribbon according to the distance between the actuator sockets, as the figures below show. Use a permanet marker.
 
 <img alt="Ribbon Alignment" src="images/Building Process/Ribbon Alligned.jpg" width="425x" height="auto"/> <img alt="Ribbon markings" src="images/Building Process/Ribbon Marked.jpg" width="425x" height="auto"/>
 
@@ -164,18 +164,26 @@ The wiring is very simple since most of the connectors provided in the kit are a
 
 <img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
 
-*Step 4:* Create the IDC connector.
-TBA
+*Step 4:* Create the IDC connector. For this stary by alligning the loose end of the ribbon cable as the picuture below shows. Please note the orientation of the header and the allignment of the ribbon: the ribbon is alligned all the way to the right, leaving hte leftmots 4 connectors unconnected, relative to the pictured orientation. 
+<img alt="Actuators Installed" src="images/Building Process/Connector Setup.jpg" width="1024x" height="auto"/>
+For those of you extra technical, the ribbon should connect to pin 5-16 of the IDC connector. If you have been consistent with the orientation when soldering the actuators, yo should have consistent phase across all actuators(not that it matters that much for this application).
+*Step 5:* Place the ribbon cable on the IDC connector, ensuring that the 4 leftmost pins are not connected, as seen below.
+<img alt="Actuators Installed" src="images/Building Process/Connector Alignment.jpg" width="1024x" height="auto"/>
+*Step 6:* Use a crimp tool, a pair of pliers or a  vice to squeeze the top of the connector onto the wires.
+P.S. if the process of making a connector seems poorly explained here, check this [Youtube](https://www.youtube.com/watch?v=EFyFhcmeS2I) tutorial.
+
+
 ### Software
 #### Running instructions
-The system is set up to automatically run at boot. When starting the Raspberry PI, the Pure Data GUI should pop-up and the audio driver should load corectly. We have experienced problems automatically loading the audio driver, so if aforementioned result is not experienced, please reboot the Raspberry PI until the GUI is shown.
+The system is set up to automatically run at boot. When starting the Raspberry PI, the Pure Data GUI should pop-up and the audio driver should load corectly. We have experienced problems automatically loading the at boot audio driver, so if aforementioned result is not experienced, please reboot the Raspberry PI. The problem is in the clocking of the soundcard, that needs to happen at boot in order to preserve the channel order.
 
 #### Graphical User Interface (GUI)
 The synthesis part of the haptic musical armband emulates the Roland TB303 synthesizer - a monophonic bass-line synthesizer defining the acid-house movement of the late 80's. The GUI is inspired by the functionalities of the Roland TB303, and consist of a sequencer with respective note on/off (gate), accent (note accentuation) and glide (pitch glide) functions, as well as general synthesis parameters (decay, cutoff, resonance), all of which are translated into haptic feedback. 
 
 **For a quick and easy start**, select one of the presets by clicking on one of the preset buttons (you will see parameters changing). Hereafter start the sequence by pressing the play/stop toggle. You should now see the step bar running, hear a melody and feel its vibrations.
 
-<img alt="Information Graph of GUI" src="images/infoGraph.jpg" width="auto" height="auto"/>
+![](https://i.imgur.com/wCu0WfP.jpg)
+
 
 The GUI allows the user to manipulate the following parameters:
 
@@ -192,10 +200,10 @@ The GUI allows the user to manipulate the following parameters:
 - **Filter Frequency**: Manipulate the cutoff of the 4-pole ladder low-pass filter. This parameters is paired with the filter resonance, constituting a perceptual many-to-one mapping, which modifies the amplitude of the haptic vibrations. 
 - **Filter Q**: Adjust the Q value/amplify the resonance at the cutoff frequency of the low-pass filter. 
 
-<img alt="Pentatonic Mapping" src="images/Arm.png" width="auto" height="auto"/>
+![](https://i.imgur.com/GIQH0Zj.jpg)
 
 
-**(ATTENTION!)** The haptic vibrations are computed independently of the pitch and timbre and is thus not affected by the octave or the oscillator type. Rather, the amplitude of the vibrations are depending on overall filter energy introduced by different cutoff and resonance settings, matching the perceptual loudness of a 303 acid bass-line. 
+**(REMEMBER!)** The haptic vibrations are computed independently of the pitch, as this is mapped to position and is thus not affected by the octave or the oscillator type. Rather, the amplitude of the vibrations are depending on overall filter energy introduced by different cutoff and resonance settings, matching the perceptual loudness of a 303 acid bass-line. 
 
 <!-- Describe your software components -->
 
