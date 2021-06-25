@@ -242,7 +242,7 @@ The GUI allows the user to manipulate the following parameters:
 
 <!-- Describe your software components -->
 
-## Running Instructions
+## Final Remarks and Instructions
 If you have completed the build succesfully, and the software is running as intended, congratulations. Now it's time for the fun part. Place the 303 armband on one of your underarms, with the actuators facing downwards. We found the easiest way to set it up, is to lay the armband on the leg, and lay one arm on it, palm facing up. We found the haptic sensations to be better if the whole armband is closer to the elbow than the wrist, so make sure the actuator closest to the wrist is at least 2-3cm from it. Once the arm is in place, start by fastening one rubber band, somewhere in the middle of the arm. Lift your hand and make sure that the actuators are all aligned with the arm; readjust if necessary and fasten all the rubber bands. If the fitting has been done correctly, they should ensure that all actuators are in contact with the arm.
 
 Turn on the sequencer by pressing the Play/Stop square button and enable some gates. You should hear some sounds, and feel the corresponding tactile stimuli. Change the note sliders (coloured yellow) to your desired notes, and experiment with different tempo, decay, glide, cutoff frequency and resonance values. We experienced that after a short accomodation period (a few minutes), the haptic stimuli becomes rather intutive to understand and accept coherently with the audio.
