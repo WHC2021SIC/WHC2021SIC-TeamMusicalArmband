@@ -146,9 +146,15 @@ It is very important to preserve the correct channel order so the actuators will
 
 *Step 7:* connect at least one of the remaining channels of the soundcard to a speaker/headphones.
 
+*Next steps are only necessary if you starts from scratch, and don't want to use the RPi image provided.
+
 *Step 8:* Install Pathbox OS by following instructions available [here](https://blokas.io/patchbox-os/).
 
-*Step 9:* Install the soundcard drivers by following instructions available [here](https://github.com/Audio-Injector/Octo).
+*Step 9:* Install the soundcard drivers by following instructions available [here](https://github.com/Audio-Injector/Octo)
+
+*Step 10:* Download the PD patch from the PD Patch folder and copy it into /usr/local/PureData-patches/*your_folder_name*/
+
+*Step 11:* Run "sudo patcbox" in the terminal, and follow the instructions to setup the Raspberry Pi to run Pure Data on boot, with your desired patch.
 
 #### Wiring
 The wiring is very simple since most of the connectors provided in the kit are already made - thank you for making our job easier. The only thing that needs to be wired manually is the actuators themselves. We used channels 2-8 of the amplifier, to connect one actuator/channel. To do this, we are using a 12 wire multi-wire ribbon with a pitch of 2.54 (not part of the kit, but the one provided should be just as good). 
