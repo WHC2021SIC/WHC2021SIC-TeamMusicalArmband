@@ -160,11 +160,11 @@ The wiring is very simple since most of the connectors provided in the kit are a
 
 <img src= "images/Building Process/Ribbon Cut.jpg" width="500x" height="auto"/> <img src="images/Building Process/Splits Soldered.jpg" width="450x" height="375x"/>
 
-*Step 3:* Solder one actuator for each pair of wires, and test the fitting as shown below. It is important to be consisted in the orientation of the actuators, relative to the ribbon cable.
+*Step 3:* Solder one actuator for each pair of wires, and test the fitting as shown below. It is important to be consisted in the orientation of the actuators, relative to the ribbon cable - in other words, dont cross cables from the ribbon.
 
 <img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
 
-*Step 4:* Create the IDC connector. For this stary by alligning the loose end of the ribbon cable as the picuture below shows. Please note the orientation of the header and the allignment of the ribbon: the ribbon is alligned all the way to the right, leaving hte leftmots 4 connectors unconnected, relative to the pictured orientation. 
+*Step 4:* Create the IDC connector. For this stary by alligning the loose end of the ribbon cable as the picuture below shows. Please note the orientation of the header and the allignment of the ribbon: the ribbon is alligned all the way to the right, leaving the leftmots 4 connectors unconnected, relative to the pictured orientation. 
 <img alt="Actuators Installed" src="images/Building Process/Connector Setup.jpg" width="1024x" height="auto"/>
 For those of you extra technical, the ribbon should connect to pin 5-16 of the IDC connector. If you have been consistent with the orientation when soldering the actuators, yo should have consistent phase across all actuators(not that it matters that much for this application).
 *Step 5:* Place the ribbon cable on the IDC connector, ensuring that the 4 leftmost pins are not connected, as seen below.
