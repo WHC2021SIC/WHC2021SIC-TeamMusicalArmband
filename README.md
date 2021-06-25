@@ -192,7 +192,7 @@ The GUI allows the user to manipulate the following parameters:
 - **Filter Frequency**: Manipulate the cutoff of the 4-pole ladder low-pass filter. This parameters is paired with the filter resonance, constituting a perceptual many-to-one mapping, which modifies the amplitude of the haptic vibrations. 
 - **Filter Q**: Adjust the Q value/amplify the resonance at the cutoff frequency of the low-pass filter. 
 
-<img alt="Ribbon Alignment" src="images/Arm.jpg" width="425x" height="auto"/>
+<img alt="Pentatonic Mapping" src="images/Arm.png" width="425x" height="auto"/>
 
 
 **(ATTENTION!)** The haptic vibrations are computed independently of the pitch and timbre and is thus not affected by the octave or the oscillator type. Rather, the amplitude of the vibrations are depending on overall filter energy introduced by different cutoff and resonance settings, matching the perceptual loudness of a 303 acid bass-line. 
