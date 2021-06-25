@@ -110,7 +110,7 @@ Step 2 is to cut pairs of wires according to the markings, strip the ends, and a
 
 Step 3 is to make solder one actuator for each pair of wires, and test the fitting as shown below.
 <img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
-Last step is to created the IDC connector.
+Last step is to create the IDC connector.
 TBA
 #### Software
 The software is runs in Pure Data v5.0.3 , on the Patchbox OS RPi distro, and it's split between an haptic synthesizer, and an audio synthesizer. More TBA
