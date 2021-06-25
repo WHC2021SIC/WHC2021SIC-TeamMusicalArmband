@@ -91,7 +91,7 @@ In order to enhance their music listening experience we propose a musical haptic
 
 Our proposed device is composed from an array of actuators placed on the top side of the forearm representing musical notes from a diatonic scale. The transducers will be following a note-to-position mapping scheme, with the lowest note closest to the wrist, and it's higher octave counterpart closest to the elbow. The device is expected to be used in combination with headphones/speakers by users with residual hearing or cochlear implants, and will use MIDI encoding to generate the haptic stimuli. The same protocol will be used to play a custom software synthesizer.
 ### Documentation
-These are the tools necessary for the hardware: scissors, pliers, flat head screwdriver(provided in the kit), wire cutters, wirre stripper, permanent marker, office tape(the stickier the better), soldering tin and an 2x8 Pin 16 Pin IDC Female Header(optional). 
+These are the tools necessary for the hardware: scissors, pliers, flat head screwdriver(provided in the kit), wire cutters, wirre stripper, permanent marker, office tape(the stickier the better), 6 rubber bands (not shown in the picture), soldering tin and an 2x8 Pin 16 Pin IDC Female Header(optional). 
 <img alt="Tools necessary" src="images/Building Process/Tools.jpg" width="1024x" height="auto"/>
 #### Hardware
 <!-- Describe your hardware components -->
