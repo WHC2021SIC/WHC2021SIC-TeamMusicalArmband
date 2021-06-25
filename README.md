@@ -152,7 +152,7 @@ It is very important to preserve the correct channel order so the actuators will
 
 *Step 9:* Install the soundcard drivers by following instructions available [here](https://github.com/Audio-Injector/Octo)
 
-*Step 10:* Download the [PD patch](https://github.com/WHC2021SIC/WHC2021SIC-TeamMusicalArmband/blob/master/PD%20Patch/main.pd) copy it into /usr/local/puredata-patches
+*Step 10:* Download the [PD patch](https://github.com/WHC2021SIC/WHC2021SIC-TeamMusicalArmband/blob/master/PD%20Patch/main.pd) and copy it into /usr/local/puredata-patches
 
 *Step 11:* Run "sudo patcbox" in the terminal, and follow the instructions to setup the Raspberry Pi to run Pure Data on boot, with your desired patch.
 
