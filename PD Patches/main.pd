@@ -1,4 +1,4 @@
-#N canvas 1608 614 908 537 10;
+#N canvas 186 135 908 535 10;
 #X obj 136 459 hradio 30 1 0 16 $step $tick empty 0 -6 0 10 -228856
 -262130 -1 0;
 #N canvas 513 301 367 276 #BPM 0;
@@ -43,23 +43,23 @@
 #X obj 166 422 tgl 30 0 $gl2 $gli2 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 196 422 tgl 30 0 $gl3 $gli3 empty 17 7 0 10 -228856 -260097
--1 1 1;
-#X obj 226 422 tgl 30 0 $gl4 $gli4 empty 17 7 0 10 -228856 -260097
--1 1 1;
-#X obj 256 422 tgl 30 0 $gl5 $gli5 empty 17 7 0 10 -228856 -260097
 -1 0 1;
+#X obj 226 422 tgl 30 0 $gl4 $gli4 empty 17 7 0 10 -228856 -260097
+-1 0 1;
+#X obj 256 422 tgl 30 0 $gl5 $gli5 empty 17 7 0 10 -228856 -260097
+-1 1 1;
 #X obj 286 422 tgl 30 0 $gl6 $gli6 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 316 422 tgl 30 0 $gl7 $gli7 empty 17 7 0 10 -228856 -260097
--1 1 1;
+-1 0 1;
 #X obj 346 422 tgl 30 0 $gl8 $gli8 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 376 422 tgl 30 0 $gl9 $gli9 empty 17 7 0 10 -228856 -260097
--1 0 1;
+-1 1 1;
 #X obj 406 422 tgl 30 0 $gl10 $gli10 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 436 422 tgl 30 0 $gl11 $gli11 empty 17 7 0 10 -228856 -260097
--1 0 1;
+-1 1 1;
 #X obj 466 422 tgl 30 0 $gl12 $gli12 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 496 422 tgl 30 0 $gl13 $gli13 empty 17 7 0 10 -228856 -260097
@@ -67,9 +67,9 @@
 #X obj 526 422 tgl 30 0 $gl14 $gli14 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 556 422 tgl 30 0 $gl15 $gli15 empty 17 7 0 10 -228856 -260097
--1 0 1;
-#X obj 586 422 tgl 30 0 $gl16 $gli16 empty 17 7 0 10 -228856 -260097
 -1 1 1;
+#X obj 586 422 tgl 30 0 $gl16 $gli16 empty 17 7 0 10 -228856 -260097
+-1 0 1;
 #X obj 91 313 cnv 15 525 30 empty empty C 0 15 0 30 -233017 -66577
 0;
 #X obj 91 282 cnv 15 525 30 empty empty E♭ 0 15 0 30 -162280 -66577
@@ -85,41 +85,41 @@
 #X obj 136 160 vsl 30 180 1 6.99 0 1 $s1 $n1 empty 0 -8 0 10 -262130
 -99865 -1 0 0;
 #X obj 166 160 vsl 30 180 1 6.99 0 1 $s2 $n2 empty 0 -8 0 10 -262130
--99865 -1 0 0;
+-99865 -1 2988 0;
 #X obj 196 160 vsl 30 180 1 6.99 0 1 $s3 $n3 empty 0 -8 0 10 -262130
 -99865 -1 5977 0;
 #X obj 226 160 vsl 30 180 1 6.99 0 1 $s4 $n4 empty 0 -8 0 10 -262130
--99865 -1 0 0;
-#X obj 256 160 vsl 30 180 1 6.99 0 1 $s5 $n5 empty 0 -8 0 10 -262130
--99865 -1 2988 0;
-#X obj 286 160 vsl 30 180 1 6.99 0 1 $s6 $n6 empty 0 -8 0 10 -262130
--99865 -1 5977 0;
-#X obj 316 160 vsl 30 180 1 6.99 0 1 $s7 $n7 empty 0 -8 0 10 -262130
--99865 -1 11953 0;
-#X obj 346 160 vsl 30 180 1 6.99 0 1 $s8 $n8 empty 0 -8 0 10 -262130
 -99865 -1 8965 0;
-#X obj 376 160 vsl 30 180 1 6.99 0 1 $s9 $n9 empty 0 -8 0 10 -262130
--99865 -1 0 0;
-#X obj 406 160 vsl 30 180 1 6.99 0 1 $s10 $n10 empty 0 -8 0 10 -262130
--99865 -1 5977 0;
-#X obj 436 160 vsl 30 180 1 6.99 0 1 $s11 $n11 empty 0 -8 0 10 -262130
--99865 -1 0 0;
-#X obj 466 160 vsl 30 180 1 6.99 0 1 $s12 $n12 empty 0 -8 0 10 -262130
+#X obj 256 160 vsl 30 180 1 6.99 0 1 $s5 $n5 empty 0 -8 0 10 -262130
+-99865 -1 11953 0;
+#X obj 286 160 vsl 30 180 1 6.99 0 1 $s6 $n6 empty 0 -8 0 10 -262130
 -99865 -1 14942 0;
+#X obj 316 160 vsl 30 180 1 6.99 0 1 $s7 $n7 empty 0 -8 0 10 -262130
+-99865 -1 0 0;
+#X obj 346 160 vsl 30 180 1 6.99 0 1 $s8 $n8 empty 0 -8 0 10 -262130
+-99865 -1 0 0;
+#X obj 376 160 vsl 30 180 1 6.99 0 1 $s9 $n9 empty 0 -8 0 10 -262130
+-99865 -1 14600 0;
+#X obj 406 160 vsl 30 180 1 6.99 0 1 $s10 $n10 empty 0 -8 0 10 -262130
+-99865 -1 2988 0;
+#X obj 436 160 vsl 30 180 1 6.99 0 1 $s11 $n11 empty 0 -8 0 10 -262130
+-99865 -1 5977 0;
+#X obj 466 160 vsl 30 180 1 6.99 0 1 $s12 $n12 empty 0 -8 0 10 -262130
+-99865 -1 8965 0;
 #X obj 496 160 vsl 30 180 1 6.99 0 1 $s13 $n13 empty 0 -8 0 10 -262130
--99865 -1 0 0;
+-99865 -1 11953 0;
 #X obj 526 160 vsl 30 180 1 6.99 0 1 $s14 $n14 empty 0 -8 0 10 -262130
--99865 -1 0 0;
+-99865 -1 14942 0;
 #X obj 556 160 vsl 30 180 1 6.99 0 1 $s15 $n15 empty 0 -8 0 10 -262130
--99865 -1 0 0;
+-99865 -1 11953 0;
 #X obj 586 160 vsl 30 180 1 6.99 0 1 $s16 $n16 empty 0 -8 0 10 -262130
 -99865 -1 8965 0;
 #X obj 92 422 cnv 15 35 30 empty empty Glide 0 15 0 12 -233017 -66577
 0;
 #X obj 22 203 vradio 30 1 0 3 $octave $octaveDefault Octave -5 -8 0
-12 -228856 -260097 -99865 1;
+12 -228856 -260097 -99865 0;
 #X obj 136 386 tgl 30 0 $a1 $ac1 empty 17 7 0 10 -228856 -260097 -1
-0 1;
+1 1;
 #X obj 166 386 tgl 30 0 $a2 $ac2 empty 17 7 0 10 -228856 -260097 -1
 0 1;
 #X obj 196 386 tgl 30 0 $a3 $ac3 empty 17 7 0 10 -228856 -260097 -1
@@ -127,11 +127,11 @@
 #X obj 226 386 tgl 30 0 $a4 $ac4 empty 17 7 0 10 -228856 -260097 -1
 0 1;
 #X obj 256 386 tgl 30 0 $a5 $ac5 empty 17 7 0 10 -228856 -260097 -1
-0 1;
-#X obj 286 386 tgl 30 0 $a6 $ac6 empty 17 7 0 10 -228856 -260097 -1
 1 1;
-#X obj 316 386 tgl 30 0 $a7 $ac7 empty 17 7 0 10 -228856 -260097 -1
+#X obj 286 386 tgl 30 0 $a6 $ac6 empty 17 7 0 10 -228856 -260097 -1
 0 1;
+#X obj 316 386 tgl 30 0 $a7 $ac7 empty 17 7 0 10 -228856 -260097 -1
+1 1;
 #X obj 346 386 tgl 30 0 $a8 $ac8 empty 17 7 0 10 -228856 -260097 -1
 0 1;
 #X obj 376 386 tgl 30 0 $a9 $ac9 empty 17 7 0 10 -228856 -260097 -1
@@ -139,15 +139,15 @@
 #X obj 406 386 tgl 30 0 $a10 $ac10 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 436 386 tgl 30 0 $a11 $ac11 empty 17 7 0 10 -228856 -260097
--1 0 1;
-#X obj 466 386 tgl 30 0 $a12 $ac12 empty 17 7 0 10 -228856 -260097
 -1 1 1;
-#X obj 496 386 tgl 30 0 $a13 $ac13 empty 17 7 0 10 -228856 -260097
+#X obj 466 386 tgl 30 0 $a12 $ac12 empty 17 7 0 10 -228856 -260097
 -1 0 1;
+#X obj 496 386 tgl 30 0 $a13 $ac13 empty 17 7 0 10 -228856 -260097
+-1 1 1;
 #X obj 526 386 tgl 30 0 $a14 $ac14 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 556 386 tgl 30 0 $a15 $ac15 empty 17 7 0 10 -228856 -260097
--1 0 1;
+-1 1 1;
 #X obj 586 386 tgl 30 0 $a16 $ac16 empty 17 7 0 10 -228856 -260097
 -1 0 1;
 #X obj 92 386 cnv 15 42 30 empty empty Accent 0 15 0 12 -233017 -66577
@@ -155,11 +155,11 @@
 #X obj 136 350 tgl 30 0 $g1 $gt1 empty 17 7 0 10 -228856 -260097 -1
 1 1;
 #X obj 166 350 tgl 30 0 $g2 $gt2 empty 17 7 0 10 -228856 -260097 -1
-0 1;
+1 1;
 #X obj 196 350 tgl 30 0 $g3 $gt3 empty 17 7 0 10 -228856 -260097 -1
 1 1;
 #X obj 226 350 tgl 30 0 $g4 $gt4 empty 17 7 0 10 -228856 -260097 -1
-0 1;
+1 1;
 #X obj 256 350 tgl 30 0 $g5 $gt5 empty 17 7 0 10 -228856 -260097 -1
 1 1;
 #X obj 286 350 tgl 30 0 $g6 $gt6 empty 17 7 0 10 -228856 -260097 -1
@@ -167,19 +167,19 @@
 #X obj 316 350 tgl 30 0 $g7 $gt7 empty 17 7 0 10 -228856 -260097 -1
 1 1;
 #X obj 346 350 tgl 30 0 $g8 $gt8 empty 17 7 0 10 -228856 -260097 -1
-0 1;
+1 1;
 #X obj 376 350 tgl 30 0 $g9 $gt9 empty 17 7 0 10 -228856 -260097 -1
 1 1;
 #X obj 406 350 tgl 30 0 $g10 $gt10 empty 17 7 0 10 -228856 -260097
 -1 1 1;
 #X obj 436 350 tgl 30 0 $g11 $gt11 empty 17 7 0 10 -228856 -260097
--1 0 1;
+-1 1 1;
 #X obj 466 350 tgl 30 0 $g12 $gt12 empty 17 7 0 10 -228856 -260097
 -1 1 1;
 #X obj 496 350 tgl 30 0 $g13 $gt13 empty 17 7 0 10 -228856 -260097
 -1 1 1;
 #X obj 526 350 tgl 30 0 $g14 $gt14 empty 17 7 0 10 -228856 -260097
--1 0 1;
+-1 1 1;
 #X obj 556 350 tgl 30 0 $g15 $gt15 empty 17 7 0 10 -228856 -260097
 -1 1 1;
 #X obj 586 350 tgl 30 0 $g16 $gt16 empty 17 7 0 10 -228856 -260097
@@ -187,14 +187,14 @@
 #X obj 92 350 cnv 15 30 30 empty empty Gate 0 15 0 12 -233017 -66577
 0;
 #X obj 285 75 vsl 20 64 1 1000 0 0 $decay $dec Decay -6 -9 0 12 -228856
--260097 -66577 2516 1;
+-260097 -66577 1886 1;
 #X obj 492 76 vsl 20 64 20 4000 1 0 $filterFreq $cut Filter_Frequency
--40 -9 0 12 -228856 -260097 -66577 0 1;
+-40 -9 0 12 -228856 -260097 -66577 5103 1;
 #X obj 593 76 vsl 20 64 0 4.5 0 0 $resonance $res Filter_Q -15 -9 0
-12 -228856 -260097 -66577 0 1;
+12 -228856 -260097 -66577 2400 1;
 #X obj 184 74 vsl 20 64 10 180 0 0 $tempo $temp Tempo -6 -9 0 12 -228856
--260097 -66577 1200 1;
-#N canvas 476 194 797 506 #sequencer 0;
+-260097 -66577 4114 1;
+#N canvas 74 98 797 506 #sequencer 0;
 #X obj -4 172 f;
 #X obj 63 172 f;
 #X obj 127 172 f;
@@ -292,232 +292,85 @@
 #X restore 291 320 graph;
 #X obj 781 450 s $frequency;
 #X obj 634 262 t f f;
-#N canvas 315 120 924 582 #porta 0;
-#X obj 627 561 inlet;
-#X obj 627 711 outlet;
-#X obj 627 675 line;
-#X text 628 533 note;
-#X obj 627 643 pack 0 0;
-#X obj 827 442 inlet;
-#X text 869 438 portamento speed (ms);
-#X obj 673 608 expr if ($i1 == 1 \, $f2 \, 0);
-#X obj 66 41 r $gl1;
-#X obj 792 471 delay;
-#X obj 792 439 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X msg 792 505 0, f 2;
-#X obj 52 110 &&;
-#X obj 24 81 == 1;
-#X msg 673 440 1;
-#X obj 147 120 &&;
-#X obj 161 39 r $gl2;
-#X obj 118 85 == 2;
-#X obj 231 126 &&;
-#X obj 315 127 &&;
-#X obj 401 132 &&;
-#X obj 506 132 &&;
-#X obj 202 91 == 3;
-#X obj 245 45 r $gl3;
-#X obj 286 92 == 4;
-#X obj 329 46 r $gl4;
-#X obj 372 97 == 5;
-#X obj 415 51 r $gl5;
-#X obj 477 97 == 6;
-#X obj 520 51 r $gl6;
-#X obj 592 136 &&;
-#X obj 697 136 &&;
-#X obj 606 55 r $gl7;
-#X obj 563 101 == 7;
-#X obj 668 101 == 8;
-#X obj 711 55 r $gl8;
-#X obj 804 134 &&;
-#X obj 890 139 &&;
-#X obj 995 139 &&;
-#X obj 1079 143 &&;
-#X obj 1186 143 &&;
-#X obj 775 99 == 9;
-#X obj 818 53 r $gl9;
-#X obj 904 58 r $gl10;
-#X obj 861 104 == 10;
-#X obj 1009 58 r $gl11;
-#X obj 966 104 == 11;
-#X obj 1052 108 == 12;
-#X obj 1096 62 r $gl12;
-#X obj 1200 62 r $gl13;
-#X obj 1157 108 == 13;
-#X obj 1291 147 &&;
-#X obj 1377 151 &&;
-#X obj 1476 148 &&;
-#X obj 1262 112 == 14;
-#X obj 1348 116 == 15;
-#X obj 1447 113 == 16;
-#X obj 1305 66 r $gl14;
-#X obj 1392 70 r $gl15;
-#X obj 1496 70 r $gl16;
-#X obj 777 12 + 1;
-#X obj 777 -9 r $step;
-#X obj 792 388 select 1;
-#X obj 890 417 s $glideOn;
-#X connect 0 0 4 0;
-#X connect 2 0 1 0;
-#X connect 4 0 2 0;
-#X connect 5 0 9 1;
-#X connect 5 0 7 1;
-#X connect 7 0 4 1;
-#X connect 8 0 12 1;
-#X connect 9 0 11 0;
-#X connect 9 0 7 0;
-#X connect 10 0 9 0;
-#X connect 11 0 7 0;
-#X connect 12 0 62 0;
-#X connect 13 0 12 0;
-#X connect 14 0 7 0;
-#X connect 15 0 62 0;
-#X connect 16 0 15 1;
-#X connect 17 0 15 0;
-#X connect 18 0 62 0;
-#X connect 19 0 62 0;
-#X connect 20 0 62 0;
-#X connect 21 0 62 0;
-#X connect 22 0 18 0;
-#X connect 23 0 18 1;
-#X connect 24 0 19 0;
-#X connect 25 0 19 1;
-#X connect 26 0 20 0;
-#X connect 27 0 20 1;
-#X connect 28 0 21 0;
-#X connect 29 0 21 1;
-#X connect 30 0 62 0;
-#X connect 31 0 62 0;
-#X connect 32 0 30 1;
-#X connect 33 0 30 0;
-#X connect 34 0 31 0;
-#X connect 35 0 31 1;
-#X connect 36 0 62 0;
-#X connect 37 0 62 0;
-#X connect 38 0 62 0;
-#X connect 39 0 62 0;
-#X connect 40 0 62 0;
-#X connect 41 0 36 0;
-#X connect 42 0 36 1;
-#X connect 43 0 37 1;
-#X connect 44 0 37 0;
-#X connect 45 0 38 1;
-#X connect 46 0 38 0;
-#X connect 47 0 39 0;
-#X connect 48 0 39 1;
-#X connect 49 0 40 1;
-#X connect 50 0 40 0;
-#X connect 51 0 62 0;
-#X connect 52 0 62 0;
-#X connect 53 0 62 0;
-#X connect 54 0 51 0;
-#X connect 55 0 52 0;
-#X connect 56 0 53 0;
-#X connect 57 0 51 1;
-#X connect 58 0 52 1;
-#X connect 59 0 53 1;
-#X connect 60 0 13 0;
-#X connect 60 0 17 0;
-#X connect 60 0 22 0;
-#X connect 60 0 24 0;
-#X connect 60 0 26 0;
-#X connect 60 0 28 0;
-#X connect 60 0 33 0;
-#X connect 60 0 34 0;
-#X connect 60 0 41 0;
-#X connect 60 0 44 0;
-#X connect 60 0 46 0;
-#X connect 60 0 47 0;
-#X connect 60 0 50 0;
-#X connect 60 0 54 0;
-#X connect 60 0 55 0;
-#X connect 60 0 56 0;
-#X connect 61 0 60 0;
-#X connect 62 0 10 0;
-#X connect 62 0 14 0;
-#X connect 62 0 7 0;
-#X connect 62 0 63 0;
-#X restore 852 343 pd #porta;
-#X obj 914 313 r $glideTime;
 #X obj 559 334 s $nextNote;
 #X floatatom 486 275 5 0 0 0 - - -;
 #X obj 525 67 select 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16;
 #X obj 525 39 + 1;
 #X obj 529 12 r $step;
-#N canvas 438 258 964 548 #portamento 0;
+#N canvas 204 112 964 548 #portamento 0;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array glideTable 1 float 3;
-#A 0 42.1714;
+#A 0 30.1714;
 #X coords 0 5 1 0 200 140 1 0 0;
-#X restore 537 302 graph;
-#X msg 259 396 0;
-#X obj 42 297 inlet;
-#X obj 42 526 outlet;
-#X obj 42 495 line;
-#X text 43 273 note;
-#X obj 42 429 pack 0 0;
-#X obj 240 293 r $glideTime;
-#X obj 66 41 r $gl1;
-#X obj 52 110 &&;
-#X obj 24 81 == 1;
-#X obj 147 120 &&;
-#X obj 161 39 r $gl2;
-#X obj 118 85 == 2;
-#X obj 231 126 &&;
-#X obj 315 127 &&;
-#X obj 401 132 &&;
-#X obj 506 132 &&;
-#X obj 202 91 == 3;
-#X obj 245 45 r $gl3;
-#X obj 286 92 == 4;
-#X obj 329 46 r $gl4;
-#X obj 372 97 == 5;
-#X obj 415 51 r $gl5;
-#X obj 477 97 == 6;
-#X obj 520 51 r $gl6;
-#X obj 592 136 &&;
-#X obj 697 136 &&;
-#X obj 606 55 r $gl7;
-#X obj 563 101 == 7;
-#X obj 668 101 == 8;
-#X obj 711 55 r $gl8;
-#X obj 804 134 &&;
-#X obj 890 139 &&;
-#X obj 995 139 &&;
-#X obj 1079 143 &&;
-#X obj 1186 143 &&;
-#X obj 775 99 == 9;
-#X obj 818 53 r $gl9;
-#X obj 904 58 r $gl10;
-#X obj 861 104 == 10;
-#X obj 1009 58 r $gl11;
-#X obj 966 104 == 11;
-#X obj 1052 108 == 12;
-#X obj 1096 62 r $gl12;
-#X obj 1200 62 r $gl13;
-#X obj 1157 108 == 13;
-#X obj 1291 147 &&;
-#X obj 1377 151 &&;
-#X obj 1476 148 &&;
-#X obj 1262 112 == 14;
-#X obj 1348 116 == 15;
-#X obj 1447 113 == 16;
-#X obj 1305 66 r $gl14;
-#X obj 1392 70 r $gl15;
-#X obj 1496 70 r $gl16;
-#X obj 777 12 + 1;
-#X obj 777 -9 r $step;
-#X obj 371 224 select 1;
-#X obj 391 424 tabwrite glideTable 0;
-#X obj 259 422 tabread glideTable;
-#X obj 391 351 r $myNote;
-#X obj 87 393 expr if ($i1 == 1 \, $f2 \, 0);
-#X obj 196 332 delay;
-#X obj 196 292 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X restore 493 -90 graph;
+#X msg 214 4 0;
+#X obj -3 -95 inlet;
+#X obj -3 134 outlet;
+#X obj -3 103 line;
+#X text -2 -119 note;
+#X obj -3 37 pack 0 0;
+#X obj 195 -99 r $glideTime;
+#X obj 21 -351 r $gl1;
+#X obj 7 -282 &&;
+#X obj -21 -311 == 1;
+#X obj 102 -272 &&;
+#X obj 116 -353 r $gl2;
+#X obj 73 -307 == 2;
+#X obj 186 -266 &&;
+#X obj 270 -265 &&;
+#X obj 356 -260 &&;
+#X obj 461 -260 &&;
+#X obj 157 -301 == 3;
+#X obj 200 -347 r $gl3;
+#X obj 241 -300 == 4;
+#X obj 284 -346 r $gl4;
+#X obj 327 -295 == 5;
+#X obj 370 -341 r $gl5;
+#X obj 432 -295 == 6;
+#X obj 475 -341 r $gl6;
+#X obj 547 -256 &&;
+#X obj 652 -256 &&;
+#X obj 561 -337 r $gl7;
+#X obj 518 -291 == 7;
+#X obj 623 -291 == 8;
+#X obj 666 -337 r $gl8;
+#X obj 759 -258 &&;
+#X obj 845 -253 &&;
+#X obj 950 -253 &&;
+#X obj 1034 -249 &&;
+#X obj 1141 -249 &&;
+#X obj 730 -293 == 9;
+#X obj 773 -339 r $gl9;
+#X obj 859 -334 r $gl10;
+#X obj 816 -288 == 10;
+#X obj 964 -334 r $gl11;
+#X obj 921 -288 == 11;
+#X obj 1007 -284 == 12;
+#X obj 1051 -330 r $gl12;
+#X obj 1155 -330 r $gl13;
+#X obj 1112 -284 == 13;
+#X obj 1246 -245 &&;
+#X obj 1332 -241 &&;
+#X obj 1431 -244 &&;
+#X obj 1217 -280 == 14;
+#X obj 1303 -276 == 15;
+#X obj 1402 -279 == 16;
+#X obj 1260 -326 r $gl14;
+#X obj 1347 -322 r $gl15;
+#X obj 1451 -322 r $gl16;
+#X obj 732 -380 + 1;
+#X obj 732 -401 r $step;
+#X obj 326 -168 select 1;
+#X obj 346 32 tabwrite glideTable 0;
+#X obj 214 30 tabread glideTable;
+#X obj 346 -41 r $myNote;
+#X obj 42 1 expr if ($i1 == 1 \, $f2 \, 0);
+#X obj 151 -60 delay;
+#X obj 151 -100 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 196 366 0, f 2;
-#X msg 87 297 1;
+#X msg 151 -26 0, f 2;
+#X msg 42 -95 1;
+#X obj 342 -141 s $glideOn;
 #X connect 1 0 60 0;
 #X connect 2 0 6 0;
 #X connect 4 0 3 0;
@@ -592,6 +445,7 @@
 #X connect 58 0 1 0;
 #X connect 58 0 66 0;
 #X connect 58 0 64 0;
+#X connect 58 0 67 0;
 #X connect 60 0 4 0;
 #X connect 61 0 59 0;
 #X connect 62 0 6 1;
@@ -650,8 +504,8 @@
 #X connect 45 0 46 0;
 #X connect 46 0 89 0;
 #X connect 47 0 91 0;
-#X connect 48 0 100 0;
-#X connect 48 0 101 0;
+#X connect 48 0 98 0;
+#X connect 48 0 99 0;
 #X connect 49 0 48 0;
 #X connect 50 0 58 1;
 #X connect 51 0 59 1;
@@ -671,8 +525,8 @@
 #X connect 65 0 1 1;
 #X connect 66 0 92 0;
 #X connect 67 0 49 0;
-#X connect 67 0 96 0;
-#X connect 67 0 95 0;
+#X connect 67 0 94 0;
+#X connect 67 0 93 0;
 #X connect 68 0 67 1;
 #X connect 69 0 66 0;
 #X connect 70 0 69 1;
@@ -697,26 +551,25 @@
 #X connect 89 0 48 1;
 #X connect 92 0 67 0;
 #X connect 92 1 68 0;
-#X connect 94 0 93 1;
-#X connect 97 0 0 0;
-#X connect 97 1 1 0;
-#X connect 97 2 2 0;
-#X connect 97 3 3 0;
-#X connect 97 4 4 0;
-#X connect 97 5 5 0;
-#X connect 97 6 6 0;
-#X connect 97 7 7 0;
-#X connect 97 8 8 0;
-#X connect 97 9 9 0;
-#X connect 97 10 10 0;
-#X connect 97 11 11 0;
-#X connect 97 12 12 0;
-#X connect 97 13 13 0;
-#X connect 97 14 14 0;
-#X connect 97 15 84 0;
-#X connect 98 0 97 0;
-#X connect 99 0 98 0;
-#X connect 100 0 47 0;
+#X connect 95 0 0 0;
+#X connect 95 1 1 0;
+#X connect 95 2 2 0;
+#X connect 95 3 3 0;
+#X connect 95 4 4 0;
+#X connect 95 5 5 0;
+#X connect 95 6 6 0;
+#X connect 95 7 7 0;
+#X connect 95 8 8 0;
+#X connect 95 9 9 0;
+#X connect 95 10 10 0;
+#X connect 95 11 11 0;
+#X connect 95 12 12 0;
+#X connect 95 13 13 0;
+#X connect 95 14 14 0;
+#X connect 95 15 84 0;
+#X connect 96 0 95 0;
+#X connect 97 0 96 0;
+#X connect 98 0 47 0;
 #X restore 699 8 pd #sequencer;
 #N canvas 524 295 562 398 #soundEngine 0;
 #N canvas 855 247 450 300 #squareWave 0;
@@ -745,7 +598,7 @@
 #N canvas -75 177 820 371 #envelope 0;
 #X floatatom 639 495 5 0 0 0 - - -;
 #X obj 639 467 line;
-#X msg 638 437 0 400;
+#X msg 638 437 0 300;
 #X msg 637 409 set 0 \$1;
 #X obj 642 386 r $decay;
 #X obj 630 591 outlet;
@@ -865,10 +718,10 @@
 #X obj 1177 128 r $a15;
 #X obj 1255 127 r $a16;
 #X obj 663 401 outlet;
-#X msg 663 343 1 15;
+#X msg 663 343 1.5 15;
 #X msg 666 302 set \$1 15;
 #X obj 666 273 expr if ($f1 == 1 \, 1.5 \, 1);
-#X obj 667 247 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 667 247 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 602 55 + 1;
 #X obj 603 12 r $step;
@@ -1064,13 +917,14 @@
 #X obj 89 102 *~;
 #X obj 235 169 + 0.5;
 #X obj 272 197 *~;
-#X obj 214 265 dac~ 1;
-#X obj 276 264 dac~ 2;
+#X obj 210 266 dac~ 7;
+#X obj 276 264 dac~ 8;
 #X connect 0 0 15 0;
 #X connect 1 0 2 1;
 #X connect 1 1 16 0;
 #X connect 2 0 3 0;
 #X connect 3 0 19 0;
+#X connect 3 0 18 0;
 #X connect 4 0 5 0;
 #X connect 5 0 17 0;
 #X connect 6 0 3 2;
@@ -1088,8 +942,8 @@
 #X connect 17 0 3 1;
 #X restore 699 52 pd #soundEngine;
 #X obj 376 76 vsl 20 64 0 250 0 0 $glideTime $gliTime Glide_Time -20
--9 0 12 -228856 -260097 -66577 3480 1;
-#N canvas 40 147 1464 1197 #hapticGate 0;
+-9 0 12 -228856 -260097 -66577 3780 1;
+#N canvas 10 213 1280 624 #hapticGate 0;
 #X obj 640 423 + 1;
 #X floatatom 640 447 5 0 0 0 - - -;
 #X obj 559 494 == 1;
@@ -1242,11 +1096,11 @@
 #X obj 469 379 * 1.2;
 #X obj 110 366 * 1.2;
 #X obj 58 347 * 1.2;
-#N canvas 819 294 789 390 #glide 0;
+#N canvas 140 190 789 390 #glide 0;
 #X msg 140 263 set \$1;
 #X msg 27 273 set \$1 \$2;
 #X obj 27 245 pack;
-#X msg 27 297 2 234.921;
+#X msg 27 297 4 200;
 #X obj 22 42 r $glideOn;
 #X obj 285 129 r $nextNote;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -1270,20 +1124,23 @@
 #X obj 14 120 - 1, f 6;
 #X obj 25 320 outlet;
 #X obj 62 199 r $glideTime;
-#X obj 50 223 + 100;
 #X obj 139 314 delay;
 #X msg 140 341 0;
 #X obj 138 366 s $killHapticGlide;
 #X obj 239 284 + 1;
 #X floatatom 252 324 5 0 0 0 - - -;
 #X obj 168 287 + 1;
+#X obj 61 91 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 50 223 + 50;
 #X connect 0 0 20 0;
 #X connect 1 0 3 0;
 #X connect 2 0 1 0;
 #X connect 3 0 20 0;
 #X connect 4 0 12 0;
 #X connect 4 0 3 0;
-#X connect 4 0 23 0;
+#X connect 4 0 22 0;
+#X connect 4 0 28 0;
 #X connect 5 0 8 0;
 #X connect 5 0 17 0;
 #X connect 7 0 0 0;
@@ -1301,18 +1158,20 @@
 #X connect 17 0 15 0;
 #X connect 18 0 9 0;
 #X connect 19 0 18 0;
-#X connect 21 0 22 0;
-#X connect 22 0 2 1;
-#X connect 22 0 26 0;
-#X connect 22 0 28 0;
+#X connect 21 0 29 0;
+#X connect 22 0 23 0;
 #X connect 23 0 24 0;
-#X connect 24 0 25 0;
-#X connect 26 0 27 0;
-#X connect 28 0 23 1;
+#X connect 25 0 26 0;
+#X connect 27 0 22 1;
+#X connect 29 0 2 1;
+#X connect 29 0 25 0;
+#X connect 29 0 27 0;
 #X restore 904 -24 pd #glide;
 #X obj 976 732 osc~ 180;
 #X obj 291 360 r $killHapticGlide;
 #X obj 970 377 r $killHapticGlide;
+#X obj 967 695 clip 150 300;
+#X obj 949 652 r $hapticFreq;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;
@@ -1514,18 +1373,9 @@
 #X connect 143 0 92 0;
 #X connect 143 0 74 0;
 #X connect 143 0 80 0;
+#X connect 144 0 141 0;
+#X connect 145 0 144 0;
 #X restore 699 75 pd #hapticGate;
-#N canvas 480 327 450 300 #default 0;
-#X obj 170 129 s $octaveDefault;
-#X msg 173 104 1;
-#X obj 157 75 loadbang;
-#X obj 293 132 s $waveformDefault;
-#X msg 295 110 0;
-#X connect 1 0 0 0;
-#X connect 2 0 1 0;
-#X connect 2 0 4 0;
-#X connect 4 0 3 0;
-#X restore 699 97 pd #default;
 #N canvas 332 118 412 300 #mapping 0;
 #X obj 208 38 r $resonance;
 #X obj 51 37 r $filterFreq;
@@ -1603,8 +1453,8 @@
 #X connect 16 0 2 3;
 #X connect 17 0 8 4;
 #X connect 18 0 8 3;
-#X restore 699 118 pd #mapping;
-#N canvas 124 280 1316 525 #presets 0;
+#X restore 699 97 pd #mapping;
+#N canvas 0 96 1280 624 #presets 0;
 #X msg 21 188 \; $gt1 1 \; $gt2 0 \; $gt3 1 \; $gt4 0 \; $gt5 1 \;
 $gt6 1 \; $gt7 1 \; $gt8 0 \; $gt9 1 \; $gt10 1 \; $gt11 0 \; $gt12
 1 \; $gt13 1 \; $gt14 0 \; $gt15 1 \; $gt16 1 \;, f 9;
@@ -1653,6 +1503,37 @@ f 10;
 #X msg 750 202 \; $n1 2 \; $n2 2 \; $n3 3 \; $n4 6 \; $n5 3 \; $n6
 2 \; $n7 1 \; $n8 4 \; $n9 1 \; $n10 7 \; $n11 1 \; $n12 2 \; $n13
 6 \; $n14 0 \; $n15 1 \; $n16 3 \;;
+#N canvas 480 327 707 300 #default 0;
+#X obj 170 129 s $octaveDefault;
+#X msg 173 104 1;
+#X obj 157 75 loadbang;
+#X obj 293 132 s $waveformDefault;
+#X msg 295 110 0;
+#X msg 96 110 100;
+#X obj 42 138 s $dec;
+#X obj 95 143 s $temp;
+#X msg 42 113 300;
+#X obj 425 139 s $gliTime;
+#X msg 425 108 125;
+#X obj 508 143 s $cut;
+#X msg 513 115 500;
+#X obj 582 151 s $res;
+#X msg 585 120 0.5;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 2 0 4 0;
+#X connect 2 0 5 0;
+#X connect 2 0 8 0;
+#X connect 2 0 10 0;
+#X connect 2 0 12 0;
+#X connect 2 0 14 0;
+#X connect 4 0 3 0;
+#X connect 5 0 7 0;
+#X connect 8 0 6 0;
+#X connect 10 0 9 0;
+#X connect 12 0 11 0;
+#X connect 14 0 13 0;
+#X restore 90 18 pd #default;
 #X connect 9 0 0 0;
 #X connect 9 0 1 0;
 #X connect 9 0 2 0;
@@ -1668,7 +1549,7 @@ f 10;
 #X connect 15 0 16 0;
 #X connect 15 0 11 0;
 #X connect 15 0 14 0;
-#X restore 699 139 pd #presets;
+#X restore 699 118 pd #presets;
 #X obj 696 179 cnv 15 80 280 empty empty empty 20 12 0 14 -233017 -66577
 0;
 #X obj 714 214 bng 40 250 50 0 $pre1 empty empty 17 7 0 10 -261234
