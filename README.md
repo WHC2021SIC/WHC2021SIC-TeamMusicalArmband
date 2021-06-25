@@ -89,7 +89,7 @@ Studies focusing on the psychological, emotional and social benefits associated 
 
 In order to enhance their music listening experience we propose a musical haptic wearable device that is based on the principle of multisensory integration - a documented phenomena that occurs at very early stages of cognition, resulting in supra-additive integration of touch and hearing. This translates to a robust synergy between the two sensory apparatuses, that can be exploited to synthesize experiences impossible to achieve by unisensory means - especially for the hearing impaired community, where the hearing mechanism is (partially) faulty. 
 
-Our proposed device is composed from an array of actuators placed on the top side of the forearm representing musical notes from a diatonic scale. The transducers will be following a note-to-position mapping scheme, with the lowest note closest to the wrist, and it's higher octave counterpart closest to the elbow. The device is expected to be used in combination with headphones/speakers by users with residual hearing or cochlear implants, and will use MIDI files to generate the haptic stimuli. The same protocol will be used to play a custom software synthesizer.
+Our proposed device is composed from an array of actuators placed on the top side of the forearm representing musical notes from a diatonic scale. The transducers will be following a note-to-position mapping scheme, with the lowest note closest to the wrist, and it's higher octave counterpart closest to the elbow. The device is expected to be used in combination with headphones/speakers by users with residual hearing or cochlear implants, and will use MIDI encoding to generate the haptic stimuli. The same protocol will be used to play a custom software synthesizer.
 ### Documentation
 These are the tools necessary for the hardware: scissors, pliers, flat head screwdriver(provided in the kit), wire cutters, wirre stripper, permanent marker, office tape(the stickier the better), soldering tin and an 2x8 Pin 16 Pin IDC Female Header(optional). 
 <img alt="Tools necessary" src="images/Building Process/Tools.jpg" width="1024x" height="auto"/>
@@ -106,7 +106,7 @@ First step is to allign and mark down ribbon according to the distance between t
 
 Step 2 is to cut pairs of wires according to the markings, strip the ends, and apply a little solder tin on the each exposed wire. It is not necesary to strip the ends more than 2-3mm.
 
-<img src= "images/Building Process/Ribbon Cut.jpg" width="500x" height="auto"/> <img src="images/Building Process/Splits Soldered.jpg" width="450x" height="400x"/>
+<img src= "images/Building Process/Ribbon Cut.jpg" width="500x" height="auto"/> <img src="images/Building Process/Splits Soldered.jpg" width="450x" height="375x"/>
 
 Step 3 is to make solder one actuator for each pair of wires, and test the fitting as shown below.
 <img alt="Actuators Installed" src="images/Building Process/Actuators installed.jpg" width="1024x" height="auto"/>
