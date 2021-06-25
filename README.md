@@ -116,9 +116,6 @@ TBA
 The software is runs in Pure Data v5.0.3 , on the Patchbox OS RPi distro, and it's split between an haptic synthesizer, and an audio synthesizer. More TBA
 <!-- Describe your software components -->
 
-- hello
-- hello
-
 
 ## Acknowledgements
 
