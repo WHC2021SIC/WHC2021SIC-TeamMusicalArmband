@@ -3,6 +3,8 @@ A haptic synthesizer inspired by the roland TB303, designed for cochlear implant
 
 https://2021.worldhaptics.org/sic/
 
+[Video Presentation Here](https://youtu.be/CfrG6zRcUiM)
+
 ## Authors
 
 ### Team
