@@ -5,6 +5,8 @@ https://2021.worldhaptics.org/sic/
 
 [Video Presentation Here](https://youtu.be/CfrG6zRcUiM)
 
+[Raspberry Pi Image Here](https://youtu.be/CfrG6zRcUiM)
+
 ## Authors
 
 ### Team
@@ -111,7 +113,7 @@ The hardware is composed of 2 parts: the hardware platform, and the Armband. Bel
 <img alt="Final Setup" src="images/Building Process/Final.jpg" width="1024x" height="auto"/>
 #### BOM
 1. **The hardware platform**:
-    1. Raspberry Pi 4 computer + SD card for the operating system
+    1. Raspberry Pi 4 computer + SD card for the [operating system](https://youtu.be/CfrG6zRcUiM)
     2. Audio Injector Octo soundcard for the RPi and it's provided 24pin ribbon cable + 8 channel RCA output breakout board
     3. Syntacts Amp 3.1 amplification board for the actuators
     4. One USB cable to power the amplifier. We cut one about 20cm long.
